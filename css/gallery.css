@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.gallery{
+    border:1px solid #777;
+    width:24%;
+    margin-bottom:1%;
+}
+img{
+    width:100%;
+}
+p{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+@media all and (max-width:1000px) and (min-width:501px) {
+    .gallery{
+        width: 49.5%;
+    }
+}
+
+@media all and (max-width:500px) {
+    .gallery{
+        width:100%;
+    }
+}
